@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+h1 {
+  text-align: center;
+  padding: 2rem;
+  /*   font-family: 'Potta One', cursive; */
+  font-size: 5rem;
+  height: 2vh;
+  line-height: 2vh;
+  color: yellow;
+  font-family: 'Niconne', cursive;
+  font-weight: 200px;
+  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b, 2px 2px 1px grey;
+  line-height: 80px;
+  margin-bottom: 12rem;
+}
+
+h4{
+  text-align: center;
+}
+
+div {
+  display:block;
+  float: center;
+  width: 80%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: white;
+  border-radius: 5em;
+  border:1px dotted pink;
+}
+
+.gridstest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.gridstest .colu {
+  width: 400px;
+  height: 200px; 
+}
+
+.colu {
+  background: white;
+  padding: 5px;
+  border-radius: 1px;
+  border-style: dotted;
+  border-color:pink;
+}
+
+#nav{
+  display:block;
+  float: fixed;
+  width: 100%;
+  padding: 2vw;
+  border:none;
+  text-align: right;
+  margin-right:auto;
+  margin-left: auto;
+  padding-right: 10%;
+  margin-bottom: 5em;
+  background-color: pink;
+  background-image:  linear-gradient(
+      rgba(250, 236, 188, 0.45), 
+      rgba(127, 63, 191, 0.45)
+    );
+  border-radius: 3em;
+}
+
+#nav a{
+  color: purple;
+}
+
+.macawon{
+  max-width: 70%;
+  display: block;
+  overflow: hidden;
+  font-family: 'Roboto';
+  border: solid 1px black;
+  border-radius: 1em;
+  margin: 3em auto;
+  background-color: pink;
+  box-shadow: 10px 10px 5px grey;
+  text-shadow: 2px 2px 1px grey;
+  color: black;
+  background-image: linear-gradient(
+      rgba(250, 236, 188, 0.45), 
+      rgba(127, 63, 191, 0.45)), url("https://media.istockphoto.com/photos/corgi-dog-smile-and-happy-in-summer-sunny-day-picture-id953069774?k=6&m=953069774&s=612x612&w=0&h=S1pb3n3UhhrnViNaEuEM-AsO-rasGU-FaxfQozyPcOE=");
+/*   background-repeat: no-repeat; */
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+}
+
+.macawon2{
+  max-width: 70%;
+  display: block;
+  overflow: hidden;
+  font-family: 'Roboto';
+  border: solid 1px black;
+  border-radius: 1em;
+  margin: 3em auto;
+  background-color: pink;
+  box-shadow: 10px 10px 5px grey;
+  color: black;
+  background-image:  linear-gradient(
+      rgba(250, 236, 188, 0.45), 
+      rgba(127, 63, 191, 0.45)
+    );
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+}
+
+h2{
+    text-shadow: 2px 2px 1px grey;
+}
+
+.buttona{
+  font-family: 'Potta One';
+  float: none;
+  display:inline-block;
+  width: 30%;
+  padding: 1vw;
+  padding-bottom:1vw;
+  margin:3vw;
+  border:1px;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 5em;
+  float:center;
+  color: white;
+  border-color: purple;
+  border-style: dotted;
+}
+
+.buttona2{
+  border-style: solid;
+  border-color: purple;
+  border-radius: 20em;
+  border-width: 1px;
+  padding: 1em;
+  background-color: pink;
+  font-size: 0.8em;
+}
+
+.buttona2:hover{
+  background-color: white;
+}
+
+.buttona:hover{
+  color:white;
+  background-color: pink;
+}
+
+.contrib{
+  font-family: 'Potta One';
+  color: white;
+  padding: 1vw;
+  margin: auto;
+}
+
+img#macaarooo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: dotted;
+  border-radius: 5em;
+}
+
+body{
+  background-color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#last{
+  float: none;
+  display:block;
+  width: 50%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  margin:3vw;
+  border:0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: white;
+  border-radius: none;
+}
+
+#notes{
+  float: none;
+  display:block;
+  width: 80%;
+  padding: 1vw;
+  padding-bottom:3vw;
+  margin:3vw;
+  border:0px;
+  margin-left: auto;
+  margin-right:auto;
+  background-color: white;
+  border-radius: 5em;
+  text-shadow: none;
+}
+
+#awoo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: dotted;
+  border-radius: 5em;
+  float: center;
+}
+
+/* from the demo on responsive design */
+
+@media (orientation: landscape) {
+  
+  div {
+  display:inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding: 1vw;
+  margin-top:3vw;
+  padding-bottom:3vw;
+  border:1px dotted pink;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  }  
+  
+}
+
+@media screen and (max-width: 575px){
+  #notes {
+    background-color:purple;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 575px){
+  h1 {
+  text-align: center;
+  padding: 2rem;
+  /*   font-family: 'Potta One', cursive; */
+  font-size: 10%;
+  height: 2vh;
+  line-height: 2vh;
+  color: yellow;
+  font-family: 'Roboto';
+  font-weight: 100px;
+  text-shadow: none;
+  line-height: 80px;
+  margin-bottom: 12rem;
+  }
+    
+   @media screen and (max-width: 575px){
+  .macawon {
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  font-family: 'Roboto';
+  border: solid 1px black;
+  border-radius: 1em;
+  margin: 3em auto;
+  background-color: pink;
+  box-shadow: 10px 10px 5px grey;
+  text-shadow: 2px 2px 1px grey;
+  color: black;
+  background-image: linear-gradient(
+      rgba(250, 236, 188, 0.45), 
+      rgba(127, 63, 191, 0.45));
+/*   background-repeat: no-repeat; */
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+  padding: 5em;
+  }
+     
+    @media screen and (max-width: 575px){
+  .macawon2 {
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  font-family: 'Roboto';
+  border: solid 1px black;
+  border-radius: 1em;
+  margin: 3em auto;
+  background-color: pink;
+  box-shadow: 10px 10px 5px grey;
+  text-shadow: 2px 2px 1px grey;
+  color: black;
+  background-image: linear-gradient(
+      rgba(250, 236, 188, 0.45), 
+      rgba(127, 63, 191, 0.45));
+/*   background-repeat: no-repeat; */
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+  }
+      
+     @media screen and (max-width: 575px){
+       #line {
+         display: none;
+       }
+    
+ /*aaaaaa*/
+  @media screen and (max-width: 575px){
+  buttona2 {
+  text-align: center;
+  /*   font-family: 'Potta One', cursive; */
+  font-size: 5em;
+  height: 1vh;
+  line-height: 5vh;
+  color: purple;
+  margin-left: auto;
+  margin-right:auto;
+  font-weight: 100px;
+  text-shadow: none;
+  float: left;
+  font-family: 'Roboto';
+  color: white;
+  }
+      
+    
+    
+    
+    
+}
+
+
